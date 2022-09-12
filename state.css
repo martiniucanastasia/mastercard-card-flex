@@ -1,0 +1,64 @@
+.card {
+    width: 240px;
+    height: 130px;
+    background-image: url('images/back.jpeg');
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+}
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 145px;
+    height: 25px;
+}
+.contactless {
+    width: 20px;
+    height: 20px;
+}
+.chip {
+    width: 20px;
+    height: 20px;
+}
+.chip-row {
+    margin-top: 10px;
+}
+.numbers-row {
+    display: flex;
+    margin: 5px 0px;
+}
+.numbers-row span {
+    margin-right: 15px;
+    letter-spacing: 1.4px;
+}
+.small-text-row {
+    display: flex;
+}
+.bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logomaster {
+    width: 45px;
+    height: 25px;
+    margin-left: 13px;
+}
+.left-top-row {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.small-text {
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+.left {
+    width: 100%;
+}
